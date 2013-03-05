@@ -273,6 +273,8 @@ header {
     font-weight: 700;
     color: #f26a5b;
     margin: 12px 0px 0px 15px;
+    text-shadow: 0 0 1px #fff;
+
 }
 
 #top-half {
@@ -395,11 +397,10 @@ header {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border-bottom: 6px solid #eeeeee;
     background-color: #ffffff;
     color: #605454;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 26px;
     padding: 6px;
     margin-top: 15px;
@@ -443,6 +444,74 @@ header {
 
 }
 
+#features {
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.features-row {
+    overflow: hidden;
+    clear: both;
+    margin: 12px 0px 0px 0px;
+    height: 27px;
+    float: left;
+    padding-bottom: 12px; 
+    border-bottom: 1px dotted #d2d2d2;
+    
+}
+
+.one {
+    margin-left:40px; 
+}
+
+.two {
+    margin-left:34px; 
+}
+
+.three {
+    margin-left:29px; 
+}
+
+.four {
+    margin-left:16px; 
+}
+
+.five {
+    margin-left:30px; 
+}
+
+.six {
+    margin-left:147px; 
+}
+
+.features-row p{
+    font-size: 20px;
+    color: #4a4542;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+}
+
+.features-title {
+    background: url(../images/features-title-bg.png) repeat-x;
+    height: 59px;
+    padding-top: 12px;
+    width:90%;
+    float:left;
+    margin: 20px 0px 0px 20px;
+    color: #ec8075;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.features-bullet {
+    background: url(../images/bullet.png) repeat-x;
+    height: 6px;
+    width:6px;
+    float:left;
+    margin: 13px 15px 0px 15px;
+}
 
 footer {
     height: 50px;
